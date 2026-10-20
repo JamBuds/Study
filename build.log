@@ -1,0 +1,292 @@
+261 INFO: PyInstaller: 6.22.3, contrib hooks: 2026.9
+261 INFO: Python: 3.13.15
+310 INFO: Platform: Windows-11-10.0.26200-SP0
+310 INFO: Python environment: C:\Users\icecr\Documents\Claude\StudyBuddy\.venv
+280 WARNING: Failed to collect submodules for 'rapidocr.inference_engine.tensorrt' because importing 'rapidocr.inference_engine.tensorrt' raised: ModuleNotFoundError: No module named 'tensorrt'
+766 WARNING: Failed to collect submodules for 'onnxruntime.quantization' because importing 'onnxruntime.quantization' raised: ModuleNotFoundError: No module named 'onnx'
+12214 INFO: Module search paths (PYTHONPATH):
+['C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Scripts\\pyinstaller.exe',
+ 'C:\\Users\\icecr\\AppData\\Local\\Programs\\Python\\Python313\\python313.zip',
+ 'C:\\Users\\icecr\\AppData\\Local\\Programs\\Python\\Python313\\DLLs',
+ 'C:\\Users\\icecr\\AppData\\Local\\Programs\\Python\\Python313\\Lib',
+ 'C:\\Users\\icecr\\AppData\\Local\\Programs\\Python\\Python313',
+ 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv',
+ 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages',
+ 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy']
+12748 INFO: Appending 'binaries' from .spec
+12749 INFO: Appending 'datas' from .spec
+12828 INFO: checking Analysis
+12828 INFO: Building Analysis because Analysis-00.toc is non existent
+12828 INFO: Looking for Python shared library...
+12828 INFO: Using Python shared library: C:\Users\icecr\AppData\Local\Programs\Python\Python313\python313.dll
+12828 INFO: Running Analysis Analysis-00.toc
+12828 INFO: Target bytecode optimization level: 0
+12828 INFO: Initializing module dependency graph...
+12831 INFO: Initializing module graph hook caches...
+12847 INFO: Analyzing modules for base_library.zip ...
+14544 INFO: Processing standard module hook 'hook-encodings.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15035 INFO: Processing standard module hook 'hook-math.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+15230 INFO: Processing standard module hook 'hook-heapq.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+16377 INFO: Processing standard module hook 'hook-pickle.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+17724 INFO: Caching module dependency graph...
+17784 INFO: Analyzing C:\Users\icecr\Documents\Claude\StudyBuddy\app\main.py
+17800 INFO: Processing standard module hook 'hook-PySide6.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18138 INFO: Processing standard module hook 'hook-shiboken6.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+18480 INFO: Processing standard module hook 'hook-PySide6.QtNetwork.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+23643 INFO: Processing standard module hook 'hook-PySide6.QtCore.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+28387 INFO: Processing standard module hook 'hook-PySide6.QtWidgets.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+32923 INFO: Processing standard module hook 'hook-PySide6.QtGui.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+77362 INFO: Processing standard module hook 'hook-certifi.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+77562 INFO: Processing standard module hook 'hook-multiprocessing.util.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+77656 INFO: Processing standard module hook 'hook-xml.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+77923 INFO: Processing standard module hook 'hook-sysconfig.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+77930 INFO: Processing standard module hook 'hook-_ctypes.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+78418 INFO: Processing standard module hook 'hook-anyio.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+78960 INFO: Processing pre-safe-import-module hook 'hook-typing_extensions.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+78961 INFO: SetuptoolsInfo: initializing cached setuptools info...
+80266 INFO: Processing standard module hook 'hook-platform.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+80356 INFO: Processing standard module hook 'hook-difflib.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+80468 INFO: Processing standard module hook 'hook-webbrowser.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+80490 INFO: Processing standard module hook 'hook-pygments.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+82047 INFO: Processing standard module hook 'hook-sqlite3.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+82425 INFO: Processing standard module hook 'hook-numpy.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+84675 INFO: Processing standard module hook 'hook-psutil.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+84967 INFO: Processing standard module hook 'hook-charset_normalizer.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+85277 INFO: Processing standard module hook 'hook-pptx.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+85957 INFO: Processing standard module hook 'hook-lxml.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+86654 INFO: Processing standard module hook 'hook-lxml.etree.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+87117 INFO: Processing standard module hook 'hook-PIL.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+87264 INFO: Processing standard module hook 'hook-PIL.Image.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+87770 INFO: Processing standard module hook 'hook-xml.etree.cElementTree.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+87954 INFO: Processing standard module hook 'hook-PIL.ImageFilter.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+90391 INFO: Processing standard module hook 'hook-onnxruntime.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+90474 INFO: Processing pre-safe-import-module hook 'hook-tensorflow.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\pre_safe_import_module'
+90596 INFO: Processing standard module hook 'hook-cv2.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+93279 INFO: Processing pre-safe-import-module hook 'hook-importlib_resources.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94342 INFO: Processing standard module hook 'hook-urllib3.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+94429 INFO: Processing pre-safe-import-module hook 'hook-backports.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94429 INFO: Setuptools: 'backports' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.backports'!
+94440 INFO: Processing standard module hook 'hook-setuptools.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+94452 INFO: Processing pre-safe-import-module hook 'hook-distutils.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94474 INFO: Processing pre-safe-import-module hook 'hook-jaraco.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94474 INFO: Setuptools: 'jaraco' appears to be a full setuptools-vendored copy - creating alias to 'setuptools._vendor.jaraco'!
+94484 INFO: Processing pre-safe-import-module hook 'hook-more_itertools.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94484 INFO: Setuptools: 'more_itertools' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.more_itertools'!
+94612 INFO: Processing standard module hook 'hook-_osx_support.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+94625 INFO: Processing pre-safe-import-module hook 'hook-packaging.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+94838 INFO: Processing standard module hook 'hook-setuptools._vendor.jaraco.text.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+95262 INFO: Processing pre-safe-import-module hook 'hook-tomli.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+95262 INFO: Setuptools: 'tomli' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.tomli'!
+95737 INFO: Processing pre-safe-import-module hook 'hook-wheel.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_safe_import_module'
+95737 INFO: Setuptools: 'wheel' appears to be a setuptools-vendored copy - creating alias to 'setuptools._vendor.wheel'!
+C:\Users\icecr\Documents\Claude\StudyBuddy\.venv\Lib\site-packages\rapidocr\inference_engine\pytorch\networks\heads\multiheadAttention.py:14: SyntaxWarning: invalid escape sequence '\d'
+  \text{MultiHead}(Q, K, V) = \text{Concat}(head_1,\dots,head_h)W^O
+96430 INFO: Processing standard module hook 'hook-shapely.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+96875 INFO: Processing standard module hook 'hook-docx.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+97371 INFO: Processing standard module hook 'hook-av.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+100445 INFO: Processing standard module hook 'hook-fsspec.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+101563 INFO: Analyzing hidden import 'faster_whisper.assets'
+101563 INFO: Analyzing hidden import 'ctranslate2.converters'
+101852 INFO: Analyzing hidden import 'ctranslate2.converters.eole_ct2'
+101863 INFO: Analyzing hidden import 'rapidocr._version'
+101866 INFO: Analyzing hidden import 'onnxruntime.capi.convert_npz_to_onnx_adapter'
+101870 INFO: Analyzing hidden import 'onnxruntime.datasets'
+101872 INFO: Analyzing hidden import 'onnxruntime.tools'
+101878 INFO: Analyzing hidden import 'onnxruntime.tools.check_onnx_model_mobile_usability'
+101917 INFO: Analyzing hidden import 'onnxruntime.tools.convert_onnx_models_to_ort'
+101970 INFO: Analyzing hidden import 'onnxruntime.tools.make_dynamic_shape_fixed'
+101976 INFO: Analyzing hidden import 'onnxruntime.tools.offline_tuning'
+101987 INFO: Analyzing hidden import 'onnxruntime.tools.onnx_randomizer'
+101993 INFO: Analyzing hidden import 'onnxruntime.tools.onnxruntime_test'
+102028 INFO: Analyzing hidden import 'onnxruntime.tools.optimize_onnx_model'
+102035 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py'
+102037 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs'
+102041 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.ArgType'
+102044 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.ArgTypeAndIndex'
+102129 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Attribute'
+102145 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.AttributeType'
+102146 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Checkpoint'
+102153 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DeprecatedKernelCreateInfos'
+102159 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DeprecatedNodeIndexAndKernelDefHash'
+102162 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DeprecatedSessionState'
+102167 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DeprecatedSubGraphSessionState'
+102172 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Dimension'
+102175 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DimensionValue'
+102179 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.DimensionValueType'
+102180 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.EdgeEnd'
+102182 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.FloatProperty'
+102187 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Graph'
+102200 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.InferenceSession'
+102205 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.IntProperty'
+102208 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.KernelTypeStrArgsEntry'
+102211 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.KernelTypeStrResolver'
+102215 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.MapType'
+102219 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Model'
+102229 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.ModuleState'
+102237 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Node'
+102253 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.NodeEdge'
+102258 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.NodeType'
+102259 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.NodesToOptimizeIndices'
+102265 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.OpIdKernelTypeStrArgsEntry'
+102269 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.OperatorSetId'
+102272 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.OptimizerGroup'
+102277 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.ParameterOptimizerState'
+102280 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.PropertyBag'
+102291 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.RuntimeOptimizationRecord'
+102298 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.RuntimeOptimizationRecordContainerEntry'
+102304 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.RuntimeOptimizations'
+102308 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.SequenceType'
+102311 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Shape'
+102315 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.SparseTensor'
+102321 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.StringProperty'
+102323 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.StringStringEntry'
+102326 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.Tensor'
+102333 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.TensorDataType'
+102335 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.TensorTypeAndShape'
+102338 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.TypeInfo'
+102341 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.TypeInfoValue'
+102342 INFO: Analyzing hidden import 'onnxruntime.tools.ort_format_model.ort_flatbuffers_py.fbs.ValueInfo'
+102347 INFO: Analyzing hidden import 'onnxruntime.tools.pytorch_export_contrib_ops'
+102353 INFO: Analyzing hidden import 'onnxruntime.tools.qdq_helpers'
+102354 INFO: Analyzing hidden import 'onnxruntime.tools.qdq_helpers.optimize_qdq_model'
+102356 INFO: Analyzing hidden import 'onnxruntime.tools.reduced_build_config_parser'
+102362 INFO: Analyzing hidden import 'onnxruntime.tools.remove_initializer_from_input'
+102365 INFO: Analyzing hidden import 'onnxruntime.tools.symbolic_shape_infer'
+102523 INFO: Analyzing hidden import 'onnxruntime.tools.update_onnx_opset'
+102524 INFO: Analyzing hidden import 'onnxruntime.transformers.affinity_helper'
+102526 INFO: Analyzing hidden import 'onnxruntime.transformers.benchmark'
+102552 INFO: Analyzing hidden import 'onnxruntime.transformers.benchmark_helper'
+102571 INFO: Analyzing hidden import 'onnxruntime.transformers.bert_perf_test'
+102586 INFO: Analyzing hidden import 'onnxruntime.transformers.bert_test_data'
+102600 INFO: Analyzing hidden import 'onnxruntime.transformers.compare_bert_results'
+102608 INFO: Analyzing hidden import 'onnxruntime.transformers.constants'
+102609 INFO: Analyzing hidden import 'onnxruntime.transformers.convert_generation'
+102770 INFO: Analyzing hidden import 'onnxruntime.transformers.convert_tf_models_to_pytorch'
+102776 INFO: Analyzing hidden import 'onnxruntime.transformers.convert_to_packing_mode'
+102788 INFO: Analyzing hidden import 'onnxruntime.transformers.dynamo_onnx_helper'
+102795 INFO: Analyzing hidden import 'onnxruntime.transformers.float16'
+102809 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_attention'
+102838 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_attention_clip'
+102845 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_attention_sam2'
+102857 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_attention_unet'
+102885 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_attention_vae'
+102892 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_bart_attention'
+102904 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_base'
+102908 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_bias_add'
+102910 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_biasgelu'
+102913 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_biassplitgelu'
+102916 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_conformer_attention'
+102925 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_constant_fold'
+102930 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_embedlayer'
+102950 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_fastgelu'
+102962 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gelu'
+102969 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gelu_approximation'
+102970 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gemmfastgelu'
+102974 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gpt_attention'
+102986 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gpt_attention_megatron'
+102993 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_gpt_attention_no_past'
+103000 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_group_norm'
+103005 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_layernorm'
+103016 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_mha_dit'
+103027 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_mha_mmdit'
+103038 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_nhwc_conv'
+103042 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_options'
+103047 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_qordered_attention'
+103057 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_qordered_gelu'
+103059 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_qordered_layernorm'
+103062 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_qordered_matmul'
+103067 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_quickgelu'
+103070 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_reshape'
+103074 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_rotary_attention'
+103113 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_shape'
+103118 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_simplified_layernorm'
+103122 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_skip_group_norm'
+103128 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_skiplayernorm'
+103136 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_transpose'
+103140 INFO: Analyzing hidden import 'onnxruntime.transformers.fusion_utils'
+103150 INFO: Analyzing hidden import 'onnxruntime.transformers.huggingface_models'
+103152 INFO: Analyzing hidden import 'onnxruntime.transformers.import_utils'
+103153 INFO: Analyzing hidden import 'onnxruntime.transformers.io_binding_helper'
+103168 INFO: Analyzing hidden import 'onnxruntime.transformers.large_model_exporter'
+103179 INFO: Analyzing hidden import 'onnxruntime.transformers.metrics'
+103185 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_exporter'
+103203 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model'
+103247 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_bart'
+103254 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_bert'
+103278 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_bert_keras'
+103293 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_bert_tf'
+103309 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_clip'
+103311 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_conformer'
+103314 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_gpt2'
+103319 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_mmdit'
+103330 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_phi'
+103355 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_sam2'
+103360 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_t5'
+103380 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_tnlr'
+103386 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_unet'
+103396 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_model_vae'
+103400 INFO: Analyzing hidden import 'onnxruntime.transformers.onnx_utils'
+103402 INFO: Analyzing hidden import 'onnxruntime.transformers.optimizer'
+103418 INFO: Analyzing hidden import 'onnxruntime.transformers.past_helper'
+103423 INFO: Analyzing hidden import 'onnxruntime.transformers.profile_result_processor'
+103432 INFO: Analyzing hidden import 'onnxruntime.transformers.profiler'
+103441 INFO: Analyzing hidden import 'onnxruntime.transformers.quantize_helper'
+103851 INFO: Analyzing hidden import 'onnxruntime.transformers.shape_infer_helper'
+103855 INFO: Analyzing hidden import 'onnxruntime.transformers.shape_optimizer'
+103865 INFO: Analyzing hidden import 'onnxruntime.transformers.torch_onnx_export_helper'
+103867 INFO: Analyzing hidden import 'av.__main__'
+103869 INFO: Analyzing hidden import 'av._cyutil'
+103869 INFO: Analyzing hidden import 'av.container.pyio'
+103875 INFO: Analyzing hidden import 'av.datasets'
+103878 INFO: Analyzing hidden import 'av.dictionary'
+103879 INFO: Analyzing hidden import 'av.opaque'
+103882 INFO: Analyzing hidden import 'av.sidedata.encparams'
+103883 INFO: Analyzing hidden import 'av.sidedata.motionvectors'
+103885 INFO: Analyzing hidden import 'av.utils'
+103887 INFO: Analyzing hidden import 'tokenizers.tools'
+103895 INFO: Processing module hooks (post-graph stage)...
+104574 INFO: Processing standard module hook 'hook-lxml.isoschematron.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+104820 INFO: Processing standard module hook 'hook-PIL.SpiderImagePlugin.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+106838 INFO: Processing standard module hook 'hook-lxml.objectify.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\_pyinstaller_hooks_contrib\\stdhooks'
+106861 INFO: Performing binary vs. data reclassification (1100 entries)
+107013 INFO: Looking for ctypes DLLs
+107122 INFO: Analyzing run-time hooks ...
+107132 INFO: Including run-time hook 'pyi_rth_pkgutil.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+107135 INFO: Including run-time hook 'pyi_rth_multiprocessing.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+107136 INFO: Including run-time hook 'pyi_rth_inspect.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+107139 INFO: Including run-time hook 'pyi_rth_setuptools.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+107140 INFO: Including run-time hook 'pyi_rth_pyside6.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks'
+107142 INFO: Processing pre-find-module-path hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\pre_find_module_path'
+107143 INFO: Processing standard module hook 'hook-_pyi_rth_utils.py' from 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PyInstaller\\hooks'
+107200 INFO: Creating base_library.zip...
+107218 INFO: Looking for dynamic libraries
+C:\Users\icecr\Documents\Claude\StudyBuddy\.venv\Lib\site-packages\fitz\__init__.py:17: FutureWarning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.
+  warnings.warn(
+116670 INFO: Extra DLL search directories (AddDllDirectory): ['C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\shiboken6', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\numpy.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\av.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\shapely.libs', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\ctranslate2']
+116671 INFO: Extra DLL search directories (PATH): ['C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\cv2\\../../x64/vc17/bin', 'C:\\Users\\icecr\\Documents\\Claude\\StudyBuddy\\.venv\\Lib\\site-packages\\PySide6']
+119237 INFO: Warnings written to C:\Users\icecr\Documents\Claude\StudyBuddy\build\build\warn-build.txt
+119370 INFO: Graph cross-reference written to C:\Users\icecr\Documents\Claude\StudyBuddy\build\build\xref-build.html
+119451 INFO: checking PYZ
+119451 INFO: Building PYZ because PYZ-00.toc is non existent
+119451 INFO: Building PYZ (ZlibArchive) C:\Users\icecr\Documents\Claude\StudyBuddy\build\build\PYZ-00.pyz
+121176 INFO: Building PYZ (ZlibArchive) C:\Users\icecr\Documents\Claude\StudyBuddy\build\build\PYZ-00.pyz completed successfully.
+121224 INFO: checking PKG
+121224 INFO: Building PKG because PKG-00.toc is non existent
+121224 INFO: Building PKG (CArchive) StudyBuddy.pkg
+121251 INFO: Building PKG (CArchive) StudyBuddy.pkg completed successfully.
+121252 INFO: Bootloader C:\Users\icecr\Documents\Claude\StudyBuddy\.venv\Lib\site-packages\PyInstaller\bootloader\Windows-64bit-intel\runw.exe
+121252 INFO: checking EXE
+121252 INFO: Building EXE because EXE-00.toc is non existent
+121253 INFO: Building EXE from EXE-00.toc
+121253 INFO: Copying bootloader EXE to C:\Users\icecr\Documents\Claude\StudyBuddy\build\build\StudyBuddy.exe
+121257 INFO: Copying icon to EXE
+121260 INFO: Copying 0 resources to EXE
+121260 INFO: Embedding manifest in EXE
+121263 INFO: Appending PKG archive to EXE
+121275 INFO: Fixing EXE headers
+121406 INFO: Building EXE from EXE-00.toc completed successfully.
+121416 INFO: checking COLLECT
+121416 INFO: Building COLLECT because COLLECT-00.toc is non existent
+121417 INFO: Building COLLECT COLLECT-00.toc
+123379 INFO: Building COLLECT COLLECT-00.toc completed successfully.
+123403 INFO: Build complete! The results are available in: C:\Users\icecr\Documents\Claude\StudyBuddy\dist
